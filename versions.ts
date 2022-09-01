@@ -41,7 +41,6 @@ let versions=[{name:"apple-version1",
         features:"scalable text",
         Author:"Sergey Brin",
         Bugs:['ABC88',"Visualization problems"]}]
-console.table(versions)
 console.log("*******************************************************");
 //Identifing Type in versions:-
 let patch=(versions.filter(n=>n.Type.includes("patch")))
